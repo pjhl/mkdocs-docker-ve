@@ -1,0 +1,20 @@
+site_name: 'Сонячна система'
+
+theme:
+  name: 'material'
+  language: 'uk'
+  palette:
+    primary: 'orange'
+    accent: 'deep orange'
+
+pages:
+  - Головна: index.md
+  - Будова:
+    - Сонце: parts/sun.md
+    - Планети земної групи: parts/earthLike.md
+    - Пояс Астероїдів: parts/asteroidBelt.md
+    - Газові гіганти: parts/gasGiants.md
+    - Пояс Койпера і хмара Оорта: parts/kuiperBeltAndOortCloud.md
+    - Комети: parts/comets.md
+    - Карликові планети: parts/dwarfPlanets.md
+  - Про сайт: about.md
